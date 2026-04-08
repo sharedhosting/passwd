@@ -110,9 +110,9 @@ $(() => {
         e.preventDefault()
         siteResultInput.select()
         if (navigator.clipboard.writeText(siteResultInput[0].value) || document.execCommand('copy')) {
-            siteResultButton.attr("title", "Copied!").tooltip("_fixTitle").tooltip("show");
+            siteResultButton.attr("title", "已复制!").tooltip("_fixTitle").tooltip("show");
             setTimeout(() => {
-                siteResultButton.tooltip("hide").attr("title", "Copy Password").tooltip("_fixTitle");
+                siteResultButton.tooltip("hide").attr("title", "复制密码").tooltip("_fixTitle");
             }, 1000);
         }
     });
