@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <title>Spectre Web</title>
-        <meta name="description" content="Password manager and secure identity platform. Spectre is a free and offline password cipher." />
-        <meta name="keywords" content="password manager,password generator,passwords,free,secure,strong,random,online,offline,privacy,web" />
+        <meta name="description" content="密码管理器和安全身份平台。Spectre 是一个免费且离线的密码加密工具。" />
+        <meta name="keywords" content="密码管理器，密码生成器，密码，免费，安全，强密码，随机，在线，离线，隐私，网页" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="theme-color" content="#3E8989">
         <meta property="og:image" content="images/product/environment/spectre-dark-desk.jpg">
@@ -27,8 +27,8 @@
         <div class="banner">
             <div class="container">
                 <h4>Spectre 3.0-alpha.2</h4>
-                <p>You are trying out a pre-release of Spectre's web version.</p>
-                <a href="https://gitlab.com/spectre.app/web/" class="btn btn-transparent">Source Code</a>
+                <p>您正在试用 Spectre 网页版的预发布版本。</p>
+                <a href="https://gitlab.com/spectre.app/web/" class="btn btn-transparent">源代码</a>
             </div>
         </div>
 
@@ -43,24 +43,24 @@
                             <p>
                                 <label id="userName">
                                     <i class="fa-duotone fa-fw fa-user-large"></i>
-                                    Your Full Name
-                                    <input type="text" placeholder="eg. Robert Lee Mitchell" autocomplete="username">
+                                    您的全名
+                                    <input type="text" placeholder="例如：Robert Lee Mitchell" autocomplete="username">
                                 </label>
                             </p>
 
                             <p>
                                 <label id="userSecret">
                                     <i class="fa-duotone fa-fw fa-user-lock"></i>
-                                    Your Spectre Secret
+                                    您的 Spectre 密钥
                                     <i class="fa-duotone fa-fw fa-galaxy fa-spin"></i>
-                                    <input type="password" placeholder="eg. banana colored duckling" autocomplete="current-password">
+                                    <input type="password" placeholder="例如：banana colored duckling" autocomplete="current-password">
                                 </label>
                             </p>
 
                             <p>
                                 <label id="algorithmVersion">
                                     <i class="fa-duotone fa-fw fa-rectangle-vertical-history"></i>
-                                    Algorithm Version
+                                    算法版本
                                     <select>
                                         <option value="0">V0 (2012:03)</option>
                                         <option value="1">V1 (2012:07)</option>
@@ -78,12 +78,12 @@
                             <p>
                                 <button type="submit" id="signin">
                                     <i class="fa-duotone fa-fw fa-2x fa-right-to-bracket"></i><br>
-                                    Sign In
+                                    登录
                                 </button>
                             </p>
                         </form>
 
-                        <p class="caption">Your information remains 100% offline.</p>
+                        <p class="caption">您的信息保持 100% 离线。</p>
                     </div>
                 </div>
             </div>
@@ -98,8 +98,8 @@
                             <p>
                                 <label id="siteName">
                                     <i class="fa-duotone fa-fw fa-globe"></i>
-                                    Password Name or Site Domain
-                                    <input type="text" placeholder="eg. twitter.com">
+                                    密码名称或网站域名
+                                    <input type="text" placeholder="例如：twitter.com">
                                 </label>
                             </p>
     
@@ -108,7 +108,7 @@
                                     <p>
                                         <label id="siteCounter">
                                             <i class="fa-duotone fa-fw fa-rectangle-vertical-history"></i>
-                                            Password Number
+                                            密码编号
                                             <input type="number" placeholder="1" min="1" max="100" value="1" class="half" />
                                         </label>
                                     </p>
@@ -118,7 +118,7 @@
                                     <p>
                                         <label id="siteType">
                                             <i class="fa-duotone fa-fw fa-key"></i>
-                                            Password Type
+                                            密码类型
                                             <select></select>
                                         </label>
                                     </p>
@@ -129,17 +129,17 @@
 
                             <p>
                                 <input type="radio" name="sitePurpose" id="sitePurposePassword" value="com.lyndir.masterpassword">
-                                <label for="sitePurposePassword">Site Password</label>
+                                <label for="sitePurposePassword">网站密码</label>
                                 <input type="radio" name="sitePurpose" id="sitePurposeLogin" value="com.lyndir.masterpassword.login">
-                                <label for="sitePurposeLogin">Site Login Name</label>
+                                <label for="sitePurposeLogin">网站登录名</label>
                                 <input type="radio" name="sitePurpose" id="sitePurposeAnswer" value="com.lyndir.masterpassword.answer">
-                                <label for="sitePurposeAnswer">Site Security Answer</label>
+                                <label for="sitePurposeAnswer">网站安全问题答案</label>
                             </p>
         
                             <p>
                                 <label id="siteResult">
                                     <i class="fa-duotone fa-fw" style="background: url('images/spectre-light-glyph.svg') no-repeat center/contain"></i>
-                                    Result
+                                    结果
                                     <i class="fa-duotone fa-fw fa-galaxy fa-spin"></i>
                                     <button type="submit" class="fa-solid fa-copy">
                                         <input class="code" value="PozoLalv0_Yelo" readonly="">
@@ -156,11 +156,11 @@
                         <p>
                             <button type="submit" id="signout">
                                 <i class="fa-duotone fa-fw fa-2x fa-right-from-bracket"></i><br>
-                                Sign Out
+                                退出登录
                             </button>
                         </p>
 
-                        <p class="caption">Your information remains 100% offline.</p>
+                        <p class="caption">您的信息保持 100% 离线。</p>
                     </div>
                 </div>
             </div>
@@ -172,10 +172,10 @@
                     <div class="col-12 text-center">
                         <div class="copyright">
                             <a href="https://spectre.app/">
-                                <img src="images/spectre-light.png" alt="Spectre: Passwords, Privacy-first" height="42">
+                                <img src="images/spectre-light.png" alt="Spectre: 密码管理，隐私优先" height="42">
                             </a>
                             <br>
-                            <p>Copyright © 2011 <a href="https://lhunath.com">Maarten Billemont</a></p>
+                            <p>版权所有 © 2011 <a href="https://lhunath.com">Maarten Billemont</a></p>
                         </div>
                     </div>
                 </div>
