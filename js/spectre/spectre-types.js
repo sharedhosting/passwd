@@ -100,16 +100,16 @@ spectre.resultType = Object.freeze({
     defaultAnswer: spectre.resultType.templatePhrase,
 });
 spectre.resultName = Object.freeze({
-    [spectre.resultType.templateMaximum]: "Maximum",
-    [spectre.resultType.templateLong]: "Long",
-    [spectre.resultType.templateMedium]: "Medium",
-    [spectre.resultType.templateShort]: "Short",
-    [spectre.resultType.templateBasic]: "Basic",
+    [spectre.resultType.templateMaximum]: "最长(20位)",
+    [spectre.resultType.templateLong]: "长(14位)",
+    [spectre.resultType.templateMedium]: "中等(8位)",
+    [spectre.resultType.templateShort]: "短(4位)",
+    [spectre.resultType.templateBasic]: "基本(8位)",
     [spectre.resultType.templatePIN]: "PIN",
-    [spectre.resultType.templateName]: "Name",
-    [spectre.resultType.templatePhrase]: "Phrase",
-    [spectre.resultType.statePersonal]: "Own",
-    [spectre.resultType.stateDevice]: "Device",
+    [spectre.resultType.templateName]: "名称",
+    [spectre.resultType.templatePhrase]: "短语",
+    [spectre.resultType.statePersonal]: "自定义",
+    [spectre.resultType.stateDevice]: "设备",
     [spectre.resultType.deriveKey]: "Key",
 });
 spectre.counter = {
